@@ -2,7 +2,7 @@ server:
   port: 8888
 spring:
  datasource:
-   driverClassName: oracle.jdbc.driver.OracleDriver
+   #driverClassName: oracle.jdbc.driver.OracleDriver
    url: jdbc:oracle:thin:@127.0.0.1:1521/ORCL
    username: scott
    password: tiger
